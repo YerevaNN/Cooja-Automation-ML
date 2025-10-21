@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "topology_id": "grid_n5_s10_seed123456",
+  "type": "grid",
+  "platform": "z1",
+  "seed": 123456,
+  "radio": {
+    "tx_range": 50.0,
+    "interference_range": 100.0,
+    "success_tx": 1.0,
+    "success_rx": 1.0
+  },
+  "timing": {
+    "duration_s": 180
+  },
+  "motes": [
+    {
+      "id": 1,
+      "role": "server",
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "id": 2,
+      "role": "client",
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "id": 3,
+      "role": "client",
+      "x": 10.0,
+      "y": 0.0
+    },
+    {
+      "id": 4,
+      "role": "client",
+      "x": 0.0,
+      "y": 10.0
+    },
+    {
+      "id": 5,
+      "role": "client",
+      "x": 10.0,
+      "y": 10.0
+    }
+  ]
+}
